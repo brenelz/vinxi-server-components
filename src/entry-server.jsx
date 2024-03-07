@@ -1,5 +1,5 @@
 import { eventHandler } from "vinxi/http";
-import MyApp from "./MyApp";
+import MyApp from "./components/MyApp";
 import { getManifest } from "vinxi/manifest";
 import { renderToPipeableStream } from "react-dom/server";
 import { routes } from "./router";
